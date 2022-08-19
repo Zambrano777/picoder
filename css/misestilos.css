@@ -1,0 +1,331 @@
+@charset "utf-8";
+/* CSS Document */
+/*GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem
+}
+h2, .h2{
+	font-family: 'Roboto';
+font-weight: bold;
+}
+h1, .h1{
+	font-weight: bold;
+}
+h6, .h6{
+	font-weight: bold;
+}
+h3, .h3{
+	font-weight: 700;
+}
+h5, .h5{
+	font-weight: bold;
+}
+#menu2{
+	z-index: 9999;
+}
+.logotipo{
+	width: 70px;
+	
+}
+/*carousel*/
+.slider{
+	background-position: center;
+	background-size: cover;
+}
+.slider .row{
+	height:600px;
+}
+.slider-1{
+	background-image:url("../IMAGENES/IMAGEN FINAL.jpg");
+	opacity: inherit;
+}
+
+
+.slider-2{
+	background-image:url("../IMAGENES/SLIDER0.jpg");
+	
+}
+
+
+.slider-3{
+	background-image:url("../IMAGENES/SLIDER3.jpg");
+}
+
+
+/*navbar*/
+
+.navbar-nav a{
+	font-family: roboto;
+	font-size: 16px;
+	font-weight: semibold;
+	
+}
+
+#menu .navbar-nav a{
+	color:#F7F7F7;
+}
+#menu a:hover, #menu .navbar-nav li.active a{
+	color: rgba(189,11,14,1.00);
+}
+.nav-link:hover, .navbar-nav li.active a{
+	border-bottom: 2px solid #FF0004;
+	
+}
+
+.carousel-indicators li{
+	background-color: #FF0004;
+}
+.bg-jumbotron{
+	background-image:url("../IMAGENES/jumbo1.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+.bg-jumbotron2{
+	background-image:url("../IMAGENES/seguridadfondo.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+.bg-jumbotron-3{
+	background-image: url("../IMAGENES/bg-filosofia-empresarial.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+/*contenido*/
+.bg-rojo{
+	background-color:#eb0a1e;
+}
+/*barra*/
+
+a{
+	color: #FFFFFF;
+}
+#barra a:hover{
+	color:rgba(255,255,255,1.00);
+}
+.tamaño{
+	height: 100px;
+
+}
+/*especialistas en servicios*/
+.img-servicios{
+	background-image:url("../IMAGENES/ss_img1.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+.img-area{
+	background-image:url("../IMAGENES/ss_img8.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+.img-tecnico{
+	background-image: url("../IMAGENES/ss_img5.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+
+/*linea*/
+.featurette-divider{
+	background-color: #FF0004;
+
+}
+/*botones*/
+.btn-rojo{
+	background-color:#eb0a1e;
+	border-radius: 25px;
+	width: 200px;
+
+}
+.btn-rojito{
+	border-radius: 25px;
+	background-color:#eb0a1e;
+	width: 150px;
+}
+.btn-outline-dark{
+	border-radius:25px;
+width: 150px;
+
+}
+/*especialistas en servicios*/
+.bg-servicios{
+	background-color:#eb0a1e; 
+}
+/*contenido card*/
+
+.inner{
+	overflow:hidden;
+}
+.inner img{
+	transition: all 1.5s ease;
+}
+.inner:hover img{
+	transform: scale(1.2);
+}
+.btn-negro{
+	background-color: #000000;
+	width: 150px;
+	border-radius: 25px;
+}
+/*footer logo*/
+.imagen-logo{
+	width: 55px;
+}
+.bg-negro{
+	background-color: #000000;
+}
+#datos .list-group li{
+	background-color:transparent;
+}
+#datos a{
+	color:#B7B4B4;
+}
+#datos a:hover{
+	color:rgba(196,28,31,1.00);
+}
+#datos li{
+	padding-left:0;
+}
+
+
+
+@media screen and (max-width:991px){
+	#menu .navbar.nav li{
+		padding:15px;
+	}
+	#menu .navbar-nav.dropdown-menu a{
+		background: transparent;
+		border:none;
+	}
+	#menu .navbar-nav .dropdown-menu a{
+		padding:7px 0;
+		border-bottom: 1px
+		solid #eb0a1e;
+	}
+	#menu .navbar-nav li:last-child, #menu .navbar-nav li .dropdown-menu a:last-child{
+		border: none;
+	}
+}
+/*cabecera contenido*/
+#cabecera{
+	background-image: url("../IMAGENES/cabecera.jpg");
+	background-position:center;
+	background-size: cover;
+	color:#E3E2E2;
+}
+
+#cabecera .container{
+	height:600px;
+}
+/*contenido escoje tu color*/
+.circulo-color{
+	width:50px!important;
+	height:50px!important;
+	border-radius:50%;
+	border:1px solid #000000!important;
+}
+.circulo-blanco{
+	background-color:#FFFFFF!important;
+}
+.circulo-rojo{
+	background-color:#BE2E37!important;
+}
+.circulo-azul{
+	background-color:#2B315F!important;
+}
+.circulo-negro{
+	background-color:#000000!important;
+}
+/*galeria*/
+.cabecera{
+	height:600px;
+	background-position: center;
+	background-size: cover;
+}
+.cabecera-1{
+	background-image: url("../IMAGENES/cabecera.jpg");
+}
+.cabecera-2{
+	background-image: url("../IMAGENES/top_keyvisual_kv_pc.jpg");
+}
+.cabecera-3{
+	background-image:url("../IMAGENES/Cover_SomosToyota.jpg");
+}
+.cabecera-4{
+	background-image: url("../IMAGENES/galeria4.jpg");
+}
+.galeria{
+	height:600px;
+	background-position: center;
+	background-size: cover;
+}
+.galeria-1{
+	background-image:url("../IMAGENES/GALERIA 4.jpg");
+}
+.galeria-2{
+	background-image: url("../IMAGENES/GALERIA 2.jpg");
+}
+.galeria-3{
+	background-image: url("../IMAGENES/GALERIA 3.jpg");
+}
+.galeria-4{
+	background-image: url("../IMAGENES/galeria4.jpg");
+}
+/*linea de separacion*/
+.borde{
+	border-bottom: solid 3px #eb0a1e;
+	height:50px;
+}
+.borde-1{
+    border-bottom: solid 3px #ffffff;
+	height:50px;	
+}
+
+.bg-fondo{
+	background: #000000;
+}
+/*vision mision*/
+#vision_mision{
+	background-image: url("../IMAGENES/fondo_vision_mision.png");
+	padding: 30px;
+	background-position:center;
+	background-size: cover;
+}
+.card-body{
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card{
+	margin:30px 20px;
+}
+.bg-gris{
+	background-color:#F8F8F8;
+}
+/*chat*/
+#chat{
+	position:fixed;
+	bottom: -340px;
+	right: 15px;
+	width: 290px;
+	height: 386px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	overflow: hidden;
+	box-shadow: 0 0 8px rgba(0,0,0,0.4);
+	z-index: 999;
+	transition:bottom 0.7s ease-out 2s;
+}
+#chat:hover{
+	bottom: 0;
+	transition:bottom 0.7s ease-out;
+}
+#cotizar input, #cotizar select,#cotizar textarea{
+	border:1px solid #DD0807;
+	border-radius: 20px;
+} 
